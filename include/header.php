@@ -29,3 +29,7 @@ $keywords = isset($page["keywords"]) ? $page["keywords"] : $site["keywords"];
     </head>
     
     <body>
+        <h1><?php echo $site["name"]; ?></h1>
+        <form>
+            <input type="text" name="q" size="60" placeholder="Search...">
+        </form>
